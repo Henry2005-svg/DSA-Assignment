@@ -6,6 +6,13 @@
       "name": "TarumtResortsApplication",
       "request": "launch",
       "mainClass": "tarumtresorts.client.TarumtResortsApplication",
+      "projectName": "DSA-Assignment_9cc31094"
+    },
+    {
+      "type": "java",
+      "name": "TarumtResortsApplication",
+      "request": "launch",
+      "mainClass": "tarumtresorts.client.TarumtResortsApplication",
       "projectName": "G9_DSA_Assignment_63be616e"
     },
     {
