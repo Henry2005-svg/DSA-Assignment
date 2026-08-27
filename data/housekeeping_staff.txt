@@ -1,0 +1,7 @@
+staffId,staffName,staffStatus,currentRoomId
+S001,Nur Iman,BSY,105
+S002,Lee Wei,BSY,202
+S003,Siti Aminah,BSY,401
+S004,John Lim,BSY,301
+S005,Ravi Kumar,AVL,
+S006,Mei Ling,AVL,

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="G9_DSA_Assignment" default="run" basedir=".">
+ <property name="src" location="src"/><property name="build" location="build/classes"/><property name="dist" location="dist"/>
+ <target name="clean"><delete dir="build"/><delete dir="dist"/></target>
+ <target name="compile"><mkdir dir="${build}"/><javac srcdir="${src}" destdir="${build}" encoding="UTF-8" source="8" target="8" includeantruntime="false"/></target>
+ <target name="jar" depends="compile"><mkdir dir="${dist}"/><jar destfile="${dist}/G9_DSA_Assignment.jar" basedir="${build}" manifest="manifest.mf"/></target>
+ <target name="run" depends="compile"><java classname="tarumtresorts.client.TarumtResortsApplication" fork="true"><classpath path="${build}"/><arg value="data"/></java></target>
+</project>

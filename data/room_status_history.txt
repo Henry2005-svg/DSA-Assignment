@@ -1,0 +1,1 @@
+roomId,previousRoomStatus,previousTaskStatus,previousStaffId,previousStartTime,updateDateTime

@@ -1,0 +1,1 @@
+confirmationNumber,guestName,roomId,roomType,checkInDateTime,expectedCheckOutDateTime,actualCheckOutDateTime,numberOfGuests,numberOfNights,bookingStatus

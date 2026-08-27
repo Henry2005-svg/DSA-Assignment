@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "TarumtResortsApplication",
+      "request": "launch",
+      "mainClass": "tarumtresorts.client.TarumtResortsApplication",
+      "projectName": "G9_DSA_Assignment_63be616e"
+    },
+    {
+      "type": "java",
+      "name": "Run TARUMT Resorts System",
+      "request": "launch",
+      "mainClass": "tarumtresorts.client.TarumtResortsApplication",
+      "projectName": "G9_DSA_Assignment",
+      "cwd": "${workspaceFolder}",
+      "args": "data",
+      "console": "integratedTerminal"
+    }
+  ]
+}
